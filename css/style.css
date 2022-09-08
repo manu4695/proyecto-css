@@ -1,8 +1,25 @@
 body{
 
-    background-color: aqua;
+   
+    background-image: url("https://e00-marca.uecdn.es/blogs/una-vida-al-filo/imagenes_posts/2018/07/07/194521_696x465.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
 }
 
-h1{color: blue;}
 
-li{color: rgb(225, 34, 34);}
+h1:hover{color: blue;}
+h1:hover{background-color: aquamarine;}
+
+ul:hover{color: aquamarine;}
+.color-aquamarine:hover {color: yellow;}
+
+/* COMENTADO    
+div:first-child{
+    color: blue;
+}
+*/ 
+div:nth-child(2){
+    color: red;
+
+   
